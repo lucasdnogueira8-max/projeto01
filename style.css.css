@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    font-family: fantasy;
+    background-color: aqua;
+}
+header{
+    background-color: rgb(94, 0, 117);
+    color: aqua;
+    padding: 20px 30px;
+}
+.conteudo-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    gap: 500px;
+}
+h1{
+    margin: 0;
+    font-size: 50px;
+    color: aqua;
+
+}
+nav{
+    display: flex;
+    gap: 25px;
+    font-size: 25px;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+
+}
+.logo img{
+    width: 75px;
+    height: 75px;
+    object-fit: contain;
+}
+nav a:hover{
+    color: rgb(94, 0, 117);
+}
